@@ -42,6 +42,28 @@
   100% { background-position: 0% 50%; }
 }
 
+@keyframes gradient-loading {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-custom-gradient {
+  animation: gradient-loading 2s linear infinite;
+}
+
+@keyframes gradient-loading {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Clase CSS personalizada que aplica la animación */
+.animate-custom-gradient {
+  animation: gradient-loading 2s linear infinite; /* Ajusta la duración si lo necesitas */
+  background-size: 200% 100%; /* Importante para que el background-position tenga efecto */
+}
+
 html, body {
   margin: 0;
   padding: 0;
