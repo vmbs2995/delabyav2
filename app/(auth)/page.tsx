@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+
 import Background from '../components/Background';
 
 
@@ -8,7 +8,6 @@ import Background from '../components/Background';
 
 
 const AuthPage = () => {
-    const [isFlipped, setIsFlipped] = useState(false);
     
     return (
      <Background>
