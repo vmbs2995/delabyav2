@@ -13,8 +13,6 @@ const AuthPage = () => {
   const [apellidoPaterno, setApellidoPaterno] = useState<string>('');
   const [apellidoMaterno, setApellidoMaterno] = useState<string>('');
   const [emailRegistro, setEmailRegistro] = useState<string>('');
-  const [passwordRegistro, setPasswordRegistro] = useState<string>('');
-  const [confirmPasswordRegistro, setConfirmPasswordRegistro] = useState<string>('');
   const [carnet, setCarnet] = useState<string>('');
   const [codigoSaga, setCodigoSaga] = useState<string>('');
   const [carrera, setCarrera] = useState<string>('');
