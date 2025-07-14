@@ -5,7 +5,7 @@ import Background from '../components/Background';
 
 const AuthPage = () => {
   const [isFlipped, setIsFlipped] = useState<boolean>(false); // Tipado explícito para TypeScript
-  const [isLoading, setIsLoading] = useState<boolean>(true); // Este estado no se usa en el código actual, pero se mantiene.
+  //const [isLoading, setIsLoading] = useState<boolean>(true); // Este estado no se usa en el código actual, pero se mantiene.
   const [rolSeleccionado, setRolSeleccionado] = useState<string>(''); // Estado para el rol seleccionado
 
   // Estados para los campos del formulario de registro (componentes controlados)
