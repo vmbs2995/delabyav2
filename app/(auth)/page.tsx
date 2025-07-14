@@ -243,21 +243,6 @@ const AuthPage = () => {
                   value={emailRegistro}
                   onChange={(e) => setEmailRegistro(e.target.value)}
                 />
-                <input
-                  type="password"
-                  placeholder="Contraseña"
-                  className="w-full px-4 py-2 rounded-md bg-[#1e293b] text-white border border-gray-600 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                  value={passwordRegistro}
-                  onChange={(e) => setPasswordRegistro(e.target.value)}
-                />
-                <input
-                  type="password"
-                  placeholder="Confirmar Contraseña"
-                  className="w-full px-4 py-2 rounded-md bg-[#1e293b] text-white border border-gray-600 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                  value={confirmPasswordRegistro}
-                  onChange={(e) => setConfirmPasswordRegistro(e.target.value)}
-                />
-
                 {/* SELECT DE ROL - CORREGIDO */}
                 <select
                   className="w-full px-4 py-2 rounded-md bg-[#1e293b] text-white border border-gray-600 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
@@ -286,7 +271,7 @@ const AuthPage = () => {
                   <>
                     <input
                       type="text"
-                      placeholder="Carnet"
+                      placeholder="Carnet de Identidad"
                       className="w-full px-4 py-2 rounded-md bg-[#1e293b] text-white border border-gray-600 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
                       value={carnet}
                       onChange={(e) => setCarnet(e.target.value)}
